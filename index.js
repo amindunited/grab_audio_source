@@ -1,0 +1,1 @@
+var audioSrc=document.querySelector("audio");console.log("??",audioSrc.src);var dummyFrame=document.createElement("iframe");dummyFrame.setAttribute("src",audioSrc.src);var bod=document.querySelector("body");bod.appendChild(dummyFrame);
